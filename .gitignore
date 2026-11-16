@@ -1,0 +1,52 @@
+# Virtual environments
+venv/
+.venv/
+env/
+.conda/
+used-car-price/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data & Datasets
+data/
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.db
+*.sqlite
+
+# Models & Checkpoints
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Experiment tracking & Logs
+mlruns/
+wandb/
+catboost_info/
+lightning_logs/
+*.log
+
+# Secrets & Environment variables
+.env
+*.pem
+*.key
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

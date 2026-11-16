@@ -1,5 +1,4 @@
 
-
 df_clean = df_merged.copy()
 df_clean['listing_id'] = df_clean['link'].str.extract(r'/show/(\d+)')[0]
 
